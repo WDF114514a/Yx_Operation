@@ -1,0 +1,25 @@
+# Logs directory - downloaded device logs
+Logs/
+
+# PyInstaller build artifacts
+log_downloader/build/
+__pycache__/
+*.pyc
+
+# Python stuff
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Test outputs and temp files
+log_downloader/*.log
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
